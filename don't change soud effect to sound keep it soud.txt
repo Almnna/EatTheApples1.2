@@ -1,0 +1,11 @@
+if you want to use with  python idle keep the game files
+ >>>> on the "d" file on the desktop<<<<
+
+and get into python idle and press (ctrl + h) and reaplace "harmony" with your 
+ >>>pc username<<<
+to know it if u don't open up the cmd and write down "set"
+you will find it next to USERNAME 
+AND CLICK "Replace All" after writing  your username
+################################
+or install it by "eat the apples-v1.2-installer.exe"#
+################################
