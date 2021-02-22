@@ -38,44 +38,44 @@ green = (0,155,0)
     
 
 #Load Image's#
-bg = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/background/eat the apples bg.gif')
-player_right1 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle1.gif')
-player_right2 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle2.gif')
-player_right3 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle3.gif')
-player_right4 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle4.gif')
-player_left1 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle11.gif')
-player_left2 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle22.gif')
-player_left3 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle33.gif')
-player_left4 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle44.gif')
-block = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/ground block/ground_block.gif')
-ground_lock = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/ground block/ground_lock.gif')
-red_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple.gif')
-green_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple3.gif')
-purple_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple2.gif')
-live = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/live/live.gif')
-pause = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/pause.gif')
-fall = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/fall.gif')
-rebuild_soild = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/rebuild.gif')
-not_enough = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/not_enough.gif')
-no_broken_solid = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/no_broken_solid.gif')
-lives_increased = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/lives_increased.gif')
-gameoverpic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/background/gameoverpic.png')
-intropic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/intropic.gif')
-play_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/play_button_active.gif')
-play_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/play_button_inactive.gif')
-how_to_play_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how_to_play_button_active.gif')
-how_to_play_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how_to_play_button_inactive.gif')
-quit_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/quit_button_active.gif')
-quit_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/quit_button_inactive.gif')
-how_to_pic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how to play.gif')
-exit_how_to = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/exit how to.gif')
-icon = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/background/icon.png')
+bg = image.load('background/eat the apples bg.gif')
+player_right1 = image.load('turtle right/turtle1.gif')
+player_right2 = image.load('turtle right/turtle2.gif')
+player_right3 = image.load('turtle right/turtle3.gif')
+player_right4 = image.load('turtle right/turtle4.gif')
+player_left1 = image.load('turtle left/turtle11.gif')
+player_left2 = image.load('turtle left/turtle22.gif')
+player_left3 = image.load('turtle left/turtle33.gif')
+player_left4 = image.load('turtle left/turtle44.gif')
+block = image.load('ground block/ground_block.gif')
+ground_lock = image.load('ground block/ground_lock.gif')
+red_apple = image.load('apples/apple.gif')
+green_apple = image.load('apples/apple3.gif')
+purple_apple = image.load('apples/apple2.gif')
+live = image.load('live/live.gif')
+pause = image.load('messages/pause.gif')
+fall = image.load('messages/fall.gif')
+rebuild_soild = image.load('messages/rebuild.gif')
+not_enough = image.load('messages/not_enough.gif')
+no_broken_solid = image.load('messages/no_broken_solid.gif')
+lives_increased = image.load('messages/lives_increased.gif')
+gameoverpic = image.load('background/gameoverpic.png')
+intropic = image.load('intro/intropic.gif')
+play_button_active = image.load('intro/play_button_active.gif')
+play_button_inactive = image.load('intro/play_button_inactive.gif')
+how_to_play_button_active = image.load('intro/how_to_play_button_active.gif')
+how_to_play_button_inactive = image.load('intro/how_to_play_button_inactive.gif')
+quit_button_active = image.load('intro/quit_button_active.gif')
+quit_button_inactive = image.load('intro/quit_button_inactive.gif')
+how_to_pic = image.load('intro/how to play.gif')
+exit_how_to = image.load('intro/exit how to.gif')
+icon = image.load('background/icon.png')
 ###########################################_____________SOUND'S_______________###################################
-eat_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
-button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
-explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
-gameover_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
-fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+eat_sound = pygame.mixer.music.load('sound effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
+button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
+explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
+gameover_sound = pygame.mixer.music.load('sound effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
+fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
 ##################################################################################################################
 ##display_setting##   
 display_width = 600  
@@ -197,43 +197,43 @@ def gamereset():
     
 
     #Load Image's#
-    bg = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/background/eat the apples bg.gif')
-    player_right1 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle1.gif')
-    player_right2 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle2.gif')
-    player_right3 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle3.gif')
-    player_right4 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle right/turtle4.gif')
-    player_left1 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle11.gif')
-    player_left2 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle22.gif')
-    player_left3 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle33.gif')
-    player_left4 = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/turtle left/turtle44.gif')
-    block = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/ground block/ground_block.gif')
-    ground_lock = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/ground block/ground_lock.gif')
-    red_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple.gif')
-    green_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple3.gif')
-    purple_apple = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/apples/apple2.gif')
-    live = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/live/live.gif')
-    pause = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/pause.gif')
-    fall = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/fall.gif')
-    rebuild_soild = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/rebuild.gif')
-    not_enough = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/not_enough.gif')
-    no_broken_solid = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/no_broken_solid.gif')
-    lives_increased = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/messages/lives_increased.gif')
-    gameoverpic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/background/gameoverpic.png')
-    intropic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/intropic.gif')
-    play_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/play_button_active.gif')
-    play_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/play_button_inactive.gif')
-    how_to_play_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how_to_play_button_active.gif')
-    how_to_play_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how_to_play_button_inactive.gif')
-    quit_button_active = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/quit_button_active.gif')
-    quit_button_inactive = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/quit_button_inactive.gif')
-    how_to_pic = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/how to play.gif')
-    exit_how_to = image.load('C:/Users/harmony/Desktop/d/eat the apples final project/intro/exit how to.gif')
+    bg = image.load('background/eat the apples bg.gif')
+    player_right1 = image.load('turtle right/turtle1.gif')
+    player_right2 = image.load('turtle right/turtle2.gif')
+    player_right3 = image.load('turtle right/turtle3.gif')
+    player_right4 = image.load('turtle right/turtle4.gif')
+    player_left1 = image.load('turtle left/turtle11.gif')
+    player_left2 = image.load('turtle left/turtle22.gif')
+    player_left3 = image.load('turtle left/turtle33.gif')
+    player_left4 = image.load('turtle left/turtle44.gif')
+    block = image.load('ground block/ground_block.gif')
+    ground_lock = image.load('ground block/ground_lock.gif')
+    red_apple = image.load('apples/apple.gif')
+    green_apple = image.load('apples/apple3.gif')
+    purple_apple = image.load('apples/apple2.gif')
+    live = image.load('live/live.gif')
+    pause = image.load('messages/pause.gif')
+    fall = image.load('messages/fall.gif')
+    rebuild_soild = image.load('messages/rebuild.gif')
+    not_enough = image.load('messages/not_enough.gif')
+    no_broken_solid = image.load('messages/no_broken_solid.gif')
+    lives_increased = image.load('messages/lives_increased.gif')
+    gameoverpic = image.load('background/gameoverpic.png')
+    intropic = image.load('intro/intropic.gif')
+    play_button_active = image.load('intro/play_button_active.gif')
+    play_button_inactive = image.load('intro/play_button_inactive.gif')
+    how_to_play_button_active = image.load('intro/how_to_play_button_active.gif')
+    how_to_play_button_inactive = image.load('intro/how_to_play_button_inactive.gif')
+    quit_button_active = image.load('intro/quit_button_active.gif')
+    quit_button_inactive = image.load('intro/quit_button_inactive.gif')
+    how_to_pic = image.load('intro/how to play.gif')
+    exit_how_to = image.load('intro/exit how to.gif')
     ###########################################_____________SOUND'S_______________###################################
-    eat_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
-    button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
-    explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
-    gameover_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
-    fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+    eat_sound = pygame.mixer.music.load('sound effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
+    button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
+    explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
+    gameover_sound = pygame.mixer.music.load('sound effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
+    fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
     ##################################################################################################################
     ##display_setting##
     display_width = 600  
@@ -400,93 +400,93 @@ def broke_if_near():
     #1-------------5#
     if apple_ground_collision(apple_x_move,block_x1,apple_y_move,block_y1):
         if(block1s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block1s = "unplaced"
             block1pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x2,apple_y_move,block_y2):
         if(block2s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block2s = "unplaced"
             block2pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x3,apple_y_move,block_y3):
         if(block3s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block3s = "unplaced"
             block3pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x4,apple_y_move,block_y4):
         if(block4s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block4s = "unplaced"
             block4pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x5,apple_y_move,block_y5):
         if(block5s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block5s = "unplaced"
             block5pic = ground_lock
     #6-------------10#
     if apple_ground_collision(apple_x_move,block_x6,apple_y_move,block_y6):
         if(block6s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block6s = "unplaced"
             block6pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x7,apple_y_move,block_y7):
         if(block7s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block7s = "unplaced"
             block7pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x8,apple_y_move,block_y8):
         if(block8s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block8s = "unplaced"
             block8pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x9,apple_y_move,block_y9):
         if(block9s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block9s = "unplaced"
             block9pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x10,apple_y_move,block_y10):
         if(block10s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block10s = "unplaced"
             block10pic = ground_lock
     #11-------------15#
     if apple_ground_collision(apple_x_move,block_x11,apple_y_move,block_y11):
         if(block11s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block11s = "unplaced"
             block11pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x12,apple_y_move,block_y12):
         if(block12s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block12s = "unplaced"
             block12pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x13,apple_y_move,block_y13):
         if(block13s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block13s = "unplaced"
             block13pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x14,apple_y_move,block_y14):
         if(block14s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block14s = "unplaced"
             block14pic = ground_lock
     if apple_ground_collision(apple_x_move,block_x15,apple_y_move,block_y15):
         if(block15s == "placed"):
-            explosion_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/explosion/explosion.wav')
+            explosion_sound = pygame.mixer.music.load('sound effect/explosion/explosion.wav')
             explosion_sound = pygame.mixer.music.play()
             block15s = "unplaced"
             block15pic = ground_lock
@@ -552,7 +552,7 @@ def fall_if_not_equal():
         if(block1s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -563,7 +563,7 @@ def fall_if_not_equal():
 
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -573,7 +573,7 @@ def fall_if_not_equal():
 
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -583,7 +583,7 @@ def fall_if_not_equal():
 
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -592,7 +592,7 @@ def fall_if_not_equal():
         if(block5s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -601,7 +601,7 @@ def fall_if_not_equal():
         if(block6s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -610,7 +610,7 @@ def fall_if_not_equal():
         if(block7s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -619,7 +619,7 @@ def fall_if_not_equal():
         if(block8s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -628,7 +628,7 @@ def fall_if_not_equal():
         if(block9s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -637,7 +637,7 @@ def fall_if_not_equal():
         if(block10s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
@@ -646,14 +646,14 @@ def fall_if_not_equal():
         if(block11s != "placed"):
             FALL = True
             player_y = 540
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             respawn_if_fall()
             lives -= 1
     if player_ground_collision(player_x,block_x12,player_y,block_y12):
         if(block12s != "placed"):
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             FALL = True
@@ -662,7 +662,7 @@ def fall_if_not_equal():
             lives -= 1
     if player_ground_collision(player_x,block_x13,player_y,block_y13):
         if(block13s != "placed"):
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             FALL = True
@@ -671,7 +671,7 @@ def fall_if_not_equal():
             lives -= 1
     if player_ground_collision(player_x,block_x14,player_y,block_y14):
         if(block14s != "placed"):
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             FALL = True
@@ -680,7 +680,7 @@ def fall_if_not_equal():
             lives -= 1
     if player_ground_collision(player_x,block_x15,player_y,block_y15):
         if(block15s != "placed"):
-            fall_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
+            fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBible.com-1428277441.wav')
             fall_sound = pygame.mixer.music.play()
             time.sleep(0.01)
             FALL = True
@@ -853,13 +853,13 @@ def gameintro():
             if ((play_x + 100 > cursor[0] > play_x) and (play_y + 50 > cursor[1] > play_y)):
                 if(click[0] == 1):
                     if(how_to != True):
-                        button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
+                        button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
                         button_sound = pygame.mixer.music.play()
                         gameloop()
 
             if ((how_x + 100 > cursor[0] > how_x) and (how_y + 50 > cursor[1] > how_y)):
                 if(click[0] == 1):
-                    button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
+                    button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
                     button_sound = pygame.mixer.music.play()
                     how_to = True
                     
@@ -867,13 +867,13 @@ def gameintro():
             if ((quit_x + 100 > cursor[0] > quit_x) and (quit_y + 50 > cursor[1] > quit_y)):
                 if(click[0] == 1):
                     if(how_to != True):
-                        button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
+                        button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
                         button_sound = pygame.mixer.music.play()
                         pygame.quit()
                         quit()
             if ((exit_how_x + 25 > cursor[0] > exit_how_x) and (exit_how_y + 25 > cursor[1] > exit_how_y)):
                 if(click[0] == 1):
-                    button_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/button/button.wav')
+                    button_sound = pygame.mixer.music.load('sound effect/button/button.wav')
                     button_sound = pygame.mixer.music.play()
                     how_to = False
                     
@@ -904,7 +904,7 @@ def gameintro():
         
 def gameover():
     global lives
-    gameover_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
+    gameover_sound = pygame.mixer.music.load('sound effect/gameover/Game Over Sound _ Free Sounds from Orange Free Sounds.wav')
     gameover_sound = pygame.mixer.music.play()
     screen.blit(gameoverpic, (0,0))
     display.update()
@@ -1081,7 +1081,7 @@ def gameloop():
                  apple_x_move = random.choice([10,40,80,120,160,200,240,280,320,360,400,440,480,520,560]) #random.randrange(20,580)
                  apple_y_move = -10
                  red_apple_score += 1
-                 eat_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
+                 eat_sound = pygame.mixer.music.load('sound effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
                  eat_sound = pygame.mixer.music.play()
 
         #GREEN______APPLE_DETECTION#
@@ -1091,7 +1091,7 @@ def gameloop():
              else:
                   tt = player_y - green_apple_y 
              if(tt <= 25 and tt >= 0):
-                 eat_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
+                 eat_sound = pygame.mixer.music.load('sound effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
                  eat_sound = pygame.mixer.music.play()
                  green_apple_x = random.randrange(20,580)
                  green_apple_y = -30
@@ -1110,7 +1110,7 @@ def gameloop():
              else:
                   tt = player_y - purple_apple_y 
              if(tt <= 15 and tt >= 0):
-                 eat_sound = pygame.mixer.music.load('C:/Users/harmony/Desktop/d/eat the apples final project/soud effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
+                 eat_sound = pygame.mixer.music.load('sound effect/bite/Bite Sounds _ Free Sound Effects _ Bite Sound Clips _ Sound Bites.wav')
                  eat_sound = pygame.mixer.music.play()
                  message3 = 30
                  lives += 1
