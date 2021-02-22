@@ -80,7 +80,7 @@ fall_sound = pygame.mixer.music.load('sound effect/fall/Fall And Splat-SoundBibl
 ##display_setting##   
 display_width = 600  
 display_height = 500
-screen = display.set_mode((display_width, display_height),FULLSCREEN)
+screen = display.set_mode((display_width, display_height))
 screen_name = display.set_caption('eat the apples')
 icon1 = display.set_icon(icon)
 clock = pygame.time.Clock()
